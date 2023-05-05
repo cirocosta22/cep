@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+body {
+  background-color: rgb(168, 92, 195);
+}
+
+.search {
+  display: flex;
+  margin-top: 1rem;
+}
+button {
+  border: none;
+  border-radius: 2px;
+  background-color: blueviolet;
+  padding: 5px;
+}
+input {
+  background-color: rgb(133, 9, 121);
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+.infos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  background-color: aliceblue;
+  width: 20rem;
+  text-align: center;
+  border-radius: 1rem;
+}
